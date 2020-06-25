@@ -1,0 +1,24 @@
+{
+  "name": "gpb",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Ceva <ceva.jp@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "tailwindcss": "^1.4.6",
+    "uuid": "^8.1.0",
+    "vuex-persistedstate": "^3.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^2.0.0"
+  }
+}
