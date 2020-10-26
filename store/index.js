@@ -16,5 +16,3 @@ export const mutations = {
     console.log(CHANGE_THEME);
   },
 };
-
-export const actions = {};

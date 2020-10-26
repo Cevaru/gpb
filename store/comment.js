@@ -46,7 +46,7 @@ export const actions = {
    * @param {String} payload.postId - ID поста
    * @param {String} payload.message - Комментарий пользователя
    */
-  async postComment({commit}, payload) {
+  async postComment({ commit }, payload) {
     const newComment = await postComment(payload);
     commit(ADD_NEW_COMMENT, newComment);
   },
